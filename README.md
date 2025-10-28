@@ -1,6 +1,22 @@
 # AndroidSystemBarsDetection
 How to detect Android system bars visibility in Inmersive Mode
 
+
+
+<table width="100%" align="center">
+  <tbody>
+    <tr>
+      <td width="50%">
+        <img
+          src="SystemBarsDetectionInmersiveMode.webp"
+          width="320"
+          alt="A video showing some items being reordered and some being stacked"
+        />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 # Description
 Android has Inmersive (normal) mode and Inmersive Sticky mode. In Inmersive Sticky mode you can *NOT* detect if user has make a gesture to display system bars or not. It is a design feature, Android has decide that in Inmersive *Sticky* mode the system bars are always not visible, even when they are visible because is a transient state.
 
