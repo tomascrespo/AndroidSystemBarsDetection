@@ -118,7 +118,7 @@ fun SystemBarsDetector(onBarsVisibilityChanged: (Boolean) -> Unit) {
                     // Cancelar cualquier ocultación pendiente
                     hideHandler.removeCallbacks(hideRunnable)
                     // Programar nueva ocultación en 5 segundos
-                    hideHandler.postDelayed(hideRunnable, 1000)
+                    hideHandler.postDelayed(hideRunnable, 2000)
                 }
             }
 
